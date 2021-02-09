@@ -22,3 +22,4 @@ func multiply(no1: Int, no2: Int) -> Int {
 print(calculator(n1: 2, n2: 3, operation: add))
 print(calculator(n1: 2, n2: 3, operation: multiply))
 
+print(calculator(n1: 6, n2: 2) { $0 / $1 })
