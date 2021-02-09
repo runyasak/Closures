@@ -15,5 +15,10 @@ func add(no1: Int, no2: Int) -> Int {
     no1 + no2
 }
 
+func multiply(no1: Int, no2: Int) -> Int {
+    no1 * no2
+}
+
 print(calculator(n1: 2, n2: 3, operation: add))
+print(calculator(n1: 2, n2: 3, operation: multiply))
 
